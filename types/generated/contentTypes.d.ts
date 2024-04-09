@@ -836,10 +836,8 @@ export interface ApiMapPlaceMapPlace extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    type: Attribute.String;
     nom: Attribute.String;
     marker: Attribute.JSON & Attribute.Required;
-    couleur: Attribute.String;
     image: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
